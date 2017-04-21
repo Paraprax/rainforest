@@ -3,6 +3,6 @@
 
 <% @products.each do |product| %>
   <p><h4><%= product.name %><p>
-  <div><%= product.price_in_cents %> cents</h4>
+  <div> $<%= product.formatted_price %> </h4>
   <h5>"<%= product.description %>"</h5></div>
 <% end %>
