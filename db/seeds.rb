@@ -4,3 +4,5 @@
 # Examples:
 #
   product1 = Product.create(name: 'Box', description: 'Awesome', price_in_cents: 99)
+
+  product2 = Product.create(name: 'Cold Fusion Reactor', description: 'Zero years away!', price_in_cents: 9999)
